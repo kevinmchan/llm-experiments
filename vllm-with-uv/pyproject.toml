@@ -1,0 +1,9 @@
+[project]
+name = "vllm-with-uv"
+version = "0.1.0"
+description = "Test running vllm in uv created environment"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "vllm>=0.6.6.post1",
+]
