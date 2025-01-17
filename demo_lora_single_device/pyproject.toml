@@ -1,0 +1,13 @@
+[project]
+name = "demo-lora-single-device"
+version = "0.1.0"
+description = "Testing lora fine tuning with torchtune"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "datasets>=3.2.0",
+    "torch>=2.5.1",
+    "torchao>=0.7.0",
+    "torchtune>=0.5.0",
+    "torchvision>=0.20.1",
+]
